@@ -107,3 +107,6 @@ My implementation uses euclidian distance to perform k-nearest neighbours cluste
 	- get the closest k training datapoints and return the most commonly occuring label as the label of the test datapoint
 4. Compare with labels of the testset and print accuracy in percentage.
 
+---
+
+NB: All the algorithms have been implemented using *Understanding Machine Learning: From Theory to Algorithms* as a reference.
