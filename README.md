@@ -1,5 +1,4 @@
 # How to run code
----
 
 ## 1. Perceptron
 ```
