@@ -10,7 +10,9 @@ python3 perceptron.py -i <path_to_input_dataset> --epochs <number_of_epochs>  --
 **k:** if k-fold mode is specified, use k flag to specify k; default is 10.
 
 **i:** tested in linearly-separable-dataset.csv
+
 ---
+
 ## 2. Adaboost
 ```
 python3 adaboost.py -i <path_to_input_dataset> --mode <erm/k-fold> -k <value_of_k> -t <number_of_stumps>
@@ -24,14 +26,12 @@ python3 adaboost.py -i <path_to_input_dataset> --mode <erm/k-fold> -k <value_of_
 **t:** number of decision stumps you want to use for boosting
 
 ---
-<br>
 
 ## 3. Support Vector Machine
 
 Implemented Soft-SVM Using SGD Algortihm from Understanding Machine Learning: From Theory to Algorithms(15.5). Tested on a linearly separable dataset with two clusters. Since it is linearly separable, the model showed an accuracy of 100 percent.
 
 ---
-<br>
 
 ## 4. K-means Clustering
 ```
@@ -68,7 +68,6 @@ For every pair of known cluster and predicted cluster, count the number of datap
 	- shift the centres based on the arithmetic mean of the datapoints assigned to tha cluster
 	
 ---
-<br>
 
 ## 5. k-Nearest Neighbours
 ```
